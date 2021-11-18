@@ -1,0 +1,396 @@
+    body{
+        background-color: #f8f9fa;
+    }
+    .logo{
+        line-height: 5px;
+        margin-left: 200px;
+        display: inline-flex;
+    }
+
+    .nav_ba{
+        float: right;
+        display: flex;
+        margin-right: 50px;
+        justify-content: space-evenly;
+        background-color: thistle;
+        /*position: relative;
+        bottom: 50px;
+        right: 150px;*/
+        width: 500px;
+    }
+    .navs{
+        text-decoration: none;
+        padding-top: 80px;
+        color: rgb(23, 26, 206);
+        font-size: 20px;
+    }
+    .img1{
+        width: 60px;
+        height: 60px;
+    }
+    .big_div{
+        display: inline-flex;
+        background-color: #061d36;
+        width: 100%;
+        height: 600px;
+        padding-top: 100px;
+
+    }
+    .div1{
+        color: white;
+        width: 800px;
+        height: 500px;
+        padding-left: 150px;
+    }
+    .side{
+        float: right;
+        margin-bottom: 700px;
+        margin-right: 300px;
+        position: relative;
+        bottom: 145px;
+        left: 100px;
+        text-align: right;
+
+    }
+    .div2{
+        width: 630px;
+        height: 450px;
+        background-color: rgb(250, 253, 253);
+        margin-right: 130px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 50px;
+        justify-content: center;
+    }
+    .namefrm{
+        display: flex;
+        justify-content: space-between;
+    }
+    .fm{
+        width: 205px;
+        height: 50px;
+        border-style: groove;
+    }
+    .frm{
+        width: 500px;
+        height: 50px;
+        border-style: groove;
+    }
+    .frm2{
+        list-style-type: none;
+    }
+    button{
+        width: 510px;
+        height: 60px;
+        color: white; 
+        background-color: #0069d9;
+        text-align: center;
+        border-radius: 5px solid;
+        font-weight: 700;
+    }
+
+    .testimony_side{
+    /* display: inline-flex; */
+    margin-left: 100px;
+    align-content: center;
+    background-color: whitesmoke;
+    font-size: 1.5rem;
+    font-size: 20px;
+    /* height: 800px; */
+    }
+    .avatar{
+        width: 80px;
+        height: 80px;
+        border-radius: 80px;
+    }
+    .JP{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .peter{
+        /* float: right; */
+        text-align: center;
+        width: 500px;
+        height: 400px;   
+        
+    }
+    .joseph{
+        text-align: center;
+        width: 500px;
+        height: 400px;
+        
+        
+    }
+    .riliwan{
+        text-align: center;
+        width: 500px;
+        height: 500px;  
+        
+        margin-left: 515px;
+    }
+    .section_2{
+        display: flex;
+        background-color: white;
+        margin-left: 150px;
+    }
+    .coding_self{
+        width: 570px;
+        height: 500px;
+    }
+    .text_section2{
+        margin-left: 50px;
+        /* font-size: 1.3rem; */
+        word-spacing: 2px;
+        font-family: Arial;
+        font-weight: lighter;
+        line-height: 25px;
+    }
+    .btn-primary{
+        padding: 20px;
+        float: right;
+    }
+    .div4{
+        display: flex;
+        margin-right: 150px;
+        
+    }
+    .div_4{
+        width: 500px;
+        padding: 20px;
+    }
+    .div4 p{
+        text-align: left;     
+    }
+    .div4_text{
+        width: 600px;
+        background-color: whitesmoke;
+        height: 400px;
+        line-height: 30px;
+    }
+    .col-6 div h3{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+    .group-images{
+        width: 605px;
+        height: 480px;
+        border-radius: 5px;
+    }
+    .div5{
+        width: 500px;
+    }
+    .section_3{
+        width: 80%;
+        margin-left: 200px;
+    }
+    .topic{
+        text-align: center;
+    }
+    .studio_part{
+        display: flex;
+        /* height: 600px; */
+        margin-left: 180px;
+    }
+    .img-fluid{
+        width: 800px;
+        height: 739px;
+    }
+    .text_studio{
+        background-color: white;
+        border: none black 2px;
+        border-radius: 7px;
+        box-shadow: grey 5px 5px 5px;
+        height: 450px;
+        width: 550px;
+        margin-top: 50px;
+        padding-left: 15px;
+        padding-top: 25px;
+        line-height: 30px;
+        position: relative;
+        right: 150px;
+        top: 20px;
+    }
+    .text_studio h2{
+        font-size: 20px;
+    }
+    .students_pic{
+        width: 600px;
+        height: 500px;
+    }
+    .why_choose{
+        background-color: blanchedalmond;
+        width: 600px;
+    }
+    .why_choose h3{
+        font-stretch: wider;
+        font-family: walsheim, sans-serif;
+    }
+    .career_side{
+        padding: 20px;
+        width: 700px;
+        height: 200px;
+        margin-left: 300px;
+    }
+
+/* @media screen and(max-width: 768px) {
+    .big_div{
+        display: block;
+    }
+    
+}
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */  
+
+@media(max-width:768px){
+    .big_div{
+        display: grid;
+        height: 1000px;
+    }
+    .div1{
+        font-size: 15px;
+    }
+    .div1 h1{
+        color: violet;
+        padding-bottom: 20px;
+    }
+    .div2{
+        margin-left: 30px;
+    }
+    .testimony_side{
+        background-color: yellow;
+        font-size: 15px;
+        height: 640px;
+        padding-right: 50px;
+    }
+    .side{
+        text-align: right;
+        background-color: thistle;
+        position: relative;
+        bottom: 130px;
+        right: 230px;
+    }
+    .jp{
+        display: block;
+        width: 600px;
+        font-size: 10px;
+        font-size: 5px;
+    }
+    .riliwan{
+        position: relative;
+        right: 400px;
+    }
+    .section_2{
+        display: block;
+    }
+}
+@media(max-width:480px){
+    body{
+        background-color: chocolate;
+    }
+    .logo{
+        display: block;
+        font-size: 15px;
+        line-height: 10px;
+        display: flex;
+        background-color: white;
+        margin-left: 10px;
+    }
+    .img1{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .nav_ba{
+        display: flex;
+        width: 350px;
+        background-color: white;
+        justify-content: space-between;    
+    }
+    .navs{
+        text-decoration: none;
+        font-size: 15px;
+        font-family: walsheim,sans-serif!important;
+
+    }
+    .big_div{
+        display: block;
+        background-color: #061d36;
+    }
+    .div1{
+        
+        color: white;
+        font-size: 13px;
+        padding-top: 30px;
+        padding-left: 10px;
+        width: 479px;
+    }
+    .side{
+        position: relative;
+        bottom: 130px;
+        right: 230px;
+        text-align: right;
+        
+    }
+    .div2{
+        background-color: white;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        padding-top: 6px;
+        height: 500px;
+        width: 440px;
+
+    }
+    .frm2{
+        list-style-type: none;
+    }
+    .frm{
+        width: 380px;
+        height: 40px;
+        border-style: solid;
+    }
+    .fm{
+        width: 380px;
+        height: 40px;
+        border-style: solid;
+    }
+    button{
+        width: 390px;
+        height: 60px;
+        color: white; 
+        background-color: #0069d9;
+        text-align: center;
+        border-radius: 5px hidden;
+        font-weight: 700;
+        border-style: hidden;
+    
+    }
+    .testimony_side{
+        /* display: inline-flex; */
+        margin-left: 20px;
+        align-content: center;
+        background-color: whitesmoke;
+        text-align: center;
+        font-size: 15px;
+        line-height: 30px;
+        padding-top: 20px;
+        /* height: 800px; */
+     }
+    .avatar{
+        width: 80px;
+        height: 80px;
+        border-radius: 80px;
+    }
+    .coding_self{
+        width: 470px;
+    }
+    .text_section2{
+        margin-left: 15px;
+        font-family: Arial;
+        font-weight: lighter;
+        text-align: justify;
+        font-size: 14px;   
+    }
+}

@@ -1,0 +1,102 @@
+body{
+    background: cyan ;
+}
+.tbl{
+    width: 300px;
+    background-color: rgb(205, 205, 226);
+    border: black;
+    border-style: dotted;
+    border-spacing: 4spx;
+    text-decoration: rgb(38, 41, 41);
+    padding: 5px;
+   
+}
+.dammy{
+    background:turquoise;
+    line-break: auto;
+}
+.dapo{
+    color: red;
+    border-style: solid;
+    border-color: black;
+    background: rgb(165, 230, 223);
+}
+.frm{
+    width: 400px;
+    height:250px;
+    color: black;
+    background-color: whitesmoke;
+     
+}
+/* .name1{
+    width: 300px;
+}
+.age1{
+    width: 310px;
+}
+.mail1{
+    width: 300px;
+}
+.soo1{
+    width: 300px;
+}
+.loc1{
+    width: 290px;
+}
+.nin1{
+    width: 330px;
+} */
+
+.top{
+    text-indent: 10px;
+    color: rgb(55, 68, 189);
+    background-color: seashell;
+    border-style: dashed;
+    text-shadow: 2px 2px;
+    box-shadow: white 3px 3px;
+   
+}
+.top:hover{
+    color: chartreuse;
+    background: darkgreen;
+    transition: linear;
+    transition-duration: 0.25s;
+    opacity: 4px;
+    transition-timing-function: ease-in-out;
+}
+
+.top1{
+    text-indent: 10px;
+    color: rgb(55, 68, 189);
+    background-color: seashell;
+    border-style: dashed;
+    text-shadow: 2px 2px;
+    box-shadow: white 3px 3px;
+}
+.pelumi{
+    animation-name:move ;
+    animation-duration: 2s;
+    animation-iteration-count: calc(2) ;
+    position: relative;
+    width: 200px;
+    max-width: 100%vw;
+}
+@keyframes move{
+    0%{
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    50%{
+       transform: translateX(50px);
+    }
+     75%{
+        transform: skewX(20deg); 
+    }
+    100%{
+        transform: rotateX(180deg);
+        
+    }
+}
+/* footer{
+    background-color: rgb(155, 195, 233);
+} */

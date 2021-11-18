@@ -1,0 +1,69 @@
+/* .every{
+   background-image: url(./images/background.jpeg);
+   background-repeat: no-repeat;
+   width: 1600px;
+   height: 98%;
+   
+   background-size: cover;
+   
+} 
+.messi{
+    
+    width: 170px;
+    height: 650px;
+    float: right;
+    margin-right: 12px;
+    margin-top: 40px;
+    position: relative;
+
+}
+.try{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+} */
+body{
+    background-color: rgb(5, 0, 36);
+    /* display: inline-flex; */
+}
+.div3{
+    display: inline-flex;
+    margin-top: 150px;
+}
+.div1{
+    background-color: lightgray;
+    height: 410px;
+    width: 800px;
+    margin-left: 40px;
+    padding-left: 50px;
+    padding-top: 100px;
+
+}
+.div2{
+    height: 500px;
+    width: 800px;
+}
+.img1{
+    height: 510px;
+    width: 760px;
+}
+header{
+    color: lightgray
+}
+.inp{
+    width: 270px;
+    height: 30px;
+    border-style: groove;
+}
+span{
+    color: red;
+}
+button{
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    width: 37px;
+    height: 40px;
+    padding-right: 40px;
+    margin-left: -16px;
+}
